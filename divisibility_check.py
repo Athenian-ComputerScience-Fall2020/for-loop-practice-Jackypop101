@@ -1,11 +1,10 @@
 # Collaborators: 
 #
-import random
 
-number = random.randint(2,50)
+for x in range(2,51):
 
-if number %3 == 0:
-    print(str(number) + " is divisible by three")
+    if x %3 == 0:
+        print(str(x) + " is divisible by three")
 
-else:
-    print(str(number) + " is not divisible by three")
+    else:
+        print(str(x) + " is not divisible by three")
